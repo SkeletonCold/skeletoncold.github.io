@@ -172,7 +172,7 @@
     
     <div id=side>
         <div class="avatar-border">
-            <img src="https://skeletoncold.github.io/images/avatar.png?v=1603223676467" class="avatar">
+            <img src="https://skeletoncold.github.io/images/avatar.png?v=1603259522168" class="avatar">
         </div>
         <div class="sitename">SkeletonCold</div>
         <span class="describtion" data-text='["嚯嚯嚯，这是我的个人主页哟"]'>&nbsp;</span>
@@ -259,7 +259,7 @@
             <i class="fa fa-user-o" aria-hidden="true"></i> 访问人数:<span id="busuanzi_value_site_uv"></span>
         </span>
     </div>
-    <div style="color:white"></div>
+    <div style="color:white">Copyright © 2020  备案号: 鄂ICP备...号</div>
     
     </div>
 
@@ -543,7 +543,30 @@
                 <div id="comment"  class="comment" style="background: white">
                     <div class="commentcontainer">
                         
-                        <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+                        
+                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'ba0ef0e526c29b6fc28c',
+    clientSecret: '4f6c3774f70241ad25a82c352623038eb84a099f',
+    repo: 'blog-talk',
+    owner: 'SkeletonCold',
+    admin: ['SkeletonCold'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+                        
+                        
                         
                     </div>
                 </div>

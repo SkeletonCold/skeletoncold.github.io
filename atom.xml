@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skeletoncold.github.io</id>
     <title>SkeletonCold</title>
-    <updated>2020-10-21T15:14:51.018Z</updated>
+    <updated>2020-10-22T05:16:26.935Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skeletoncold.github.io"/>
     <link rel="self" href="https://skeletoncold.github.io/atom.xml"/>
@@ -12,14 +12,16 @@
     <rights>All rights reserved 2020, SkeletonCold</rights>
     <entry>
         <title type="html"><![CDATA[如何搭建Minecraft服务器]]></title>
-        <id>https://skeletoncold.github.io/post/how to install minecraft server/</id>
-        <link href="https://skeletoncold.github.io/post/how to install minecraft server/">
+        <id>https://skeletoncold.github.io/post/how-to-install-minecraft-server/</id>
+        <link href="https://skeletoncold.github.io/post/how-to-install-minecraft-server/">
         </link>
         <updated>2020-10-21T06:07:07.000Z</updated>
         <content type="html"><![CDATA[<h1 id="开始">🏠开始</h1>
 <p><strong>本教程只适用于Java版</strong><br>
+推荐使用电脑端访问此文章<br>
 需要安装Java并配置环境变量<br>
-<code>https://java.com/</code>环境变量，请自行百度<code>如何配置Java环境变量</code><br>
+请到<code>https://java.com/</code>下载Java，建议64位Java<br>
+环境变量，请自行百度<code>如何配置Java环境变量</code><br>
 请打开文件扩展名显示<br>
 下文中所有图文<strong>bat程序</strong>改为<strong>bat脚本</strong>毕竟只是个启动脚本...叫bat脚本更妥当</p>
 <h1 id="搭建">🚀搭建</h1>
@@ -239,8 +241,8 @@
 <p>把模组放入<strong>mods</strong>文件夹后，启动一次服务器，如果这个模组他有配置文件，则会自动生成一个配置文件在服务端的<strong>config</strong>文件夹下，至于服务端的<strong>defaultconfig</strong>文件夹....我也不知道干啥用的，没见哪个模组把文件生成在这</p>
 <h2 id="指令">💽指令</h2>
 <p>emmm也没啥好说的吧，你说模组的指令，你又不一定用这模组，插件也是，就讲讲原版的几个吧<br>
-<code>/stop</code>停止服务器，各种服务器都可以用这个指令停止！如果服务器卡死了，输入指令无效的话，那么请自行结束服务端进程（该指令需要4级权限才能使用，<strong>服务器配置文件（server.properties）<strong>里默认给</strong>OP</strong>的就是4级权限，所以<strong>OP不规范，服主两行泪</strong>）<br>
-<code>/op &lt;id&gt;</code>该指令可以给玩家OP权限，可以在**服务器配置文件（server.properties）**里设置默认给玩家的是几级权限<br>
+<code>/stop</code>停止服务器，各种服务器都可以用这个指令停止！如果服务器卡死了，输入指令无效的话，那么请自行结束服务端进程（该指令需要4级权限才能使用，<strong>服务器配置文件[server.properties]<strong>里默认给</strong>OP</strong>的就是4级权限，所以<strong>OP不规范，服主两行泪</strong>）<br>
+<code>/op &lt;id&gt;</code>该指令可以给玩家OP权限，可以在<strong>服务器配置文件</strong>里设置默认给玩家的是几级权限<br>
 <code>/deop &lt;id&gt;</code>该指令可以取消玩家的OP权限</p>
 <p>感谢您能读到这，如果有什么想说的，可以在下方评论区登录<strong>GitHub</strong>，并撰写评论<br>
 感谢<strong>GitHub Page</strong>提供的免费建站服务</p>

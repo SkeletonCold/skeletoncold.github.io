@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skeletoncold.github.io</id>
     <title>SkeletonCold</title>
-    <updated>2020-10-24T18:52:40.659Z</updated>
+    <updated>2020-11-23T13:20:23.542Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skeletoncold.github.io"/>
     <link rel="self" href="https://skeletoncold.github.io/atom.xml"/>
@@ -156,7 +156,7 @@
 <img src="https://skeletoncold.github.io/post-images/1603272833344.png" alt="" loading="lazy"><br>
 注:原版服务端是必下的！fabric/forge本身不提供游戏内容，他只是个框架API，所以需要原生游戏的支持<br>
 安装完后关闭那2个窗口，<s>如果看那安装器不爽，可以把他删掉</s><br>
-<img src="https://skeletoncold.github.io/post-images/1603273450769.png" alt="" loading="lazy"></li>
+<img src="https://skeletoncold.github.io/post-images/1606137509627.png" alt="" loading="lazy"></li>
 </ul>
 </li>
 <li>好！到此为止，fabric服务端安装整完了</li>

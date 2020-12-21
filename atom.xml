@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skeletoncold.github.io</id>
     <title>SkeletonCold</title>
-    <updated>2020-11-23T13:41:02.889Z</updated>
+    <updated>2020-12-21T21:23:22.357Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skeletoncold.github.io"/>
     <link rel="self" href="https://skeletoncold.github.io/atom.xml"/>
@@ -10,6 +10,62 @@
     <logo>https://skeletoncold.github.io/images/avatar.png</logo>
     <icon>https://skeletoncold.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, SkeletonCold</rights>
+    <entry>
+        <title type="html"><![CDATA[如何使用原版数据包来ban物品(仅限合成！)]]></title>
+        <id>https://skeletoncold.github.io/post/how-to-ban-item-with-vanilla-datapack/</id>
+        <link href="https://skeletoncold.github.io/post/how-to-ban-item-with-vanilla-datapack/">
+        </link>
+        <updated>2020-12-21T18:24:38.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="开始之前">🏠开始之前</h1>
+<p>本教程仅适用于Minecraft:Java Edition 1.13+<br>
+<s>由于技术力不足，所以只做到了ban除物品合成配方</s></p>
+<h1 id="如何制作数据包">如何制作数据包</h1>
+<p>会制作数据包的可跳过！<br>
+本部分只讲配方！</p>
+<p>wiki详细教程链接:<code>https://minecraft-zh.gamepedia.com/%E6%95%B0%E6%8D%AE%E5%8C%85</code></p>
+<h2 id="起">起</h2>
+<p>首先创建一个文件夹<br>
+然后在其内部再创建一个文件夹并将其命名为<strong>data</strong><br>
+再在该文件夹内创建一个新建文本文档，并将其改为<strong>pack.mcmeta</strong>（！需要开启扩展名显示）<br>
+他看起来是这样的<img src="https://skeletoncold.github.io/post-images/1608576771286.png" alt="" loading="lazy"></p>
+<h2 id="继">继</h2>
+<p>右键pack.mcmeta选择一个<strong>文本编辑器</strong>打开<br>
+并写入以下内容<br>
+<img src="https://skeletoncold.github.io/post-images/1608577729250.png" alt="" loading="lazy"><br>
+效果图<br>
+<img src="https://skeletoncold.github.io/post-images/1608579353365.png" alt="" loading="lazy"></p>
+<ul>
+<li>关于<strong>数据包版本</strong></li>
+<li>他并不是说你的数据包出到第几版，而是该数据包对应的MC版本</li>
+<li>*参考wiki<code>数据包版本。如果这个数值与当前需要的数值不匹配，则资源包就会显示一个错误，进行附加确认后才能加载数据包。在13w24a至1.8.8和1.8.9中需要的数值为1，在15w31a至1.10.2为2，在16w32a至17w47b中为3，在17w48a至19w46b为4，在1.15-pre1至1.16.2-pre3则为5，在1.16.2-rc1至1.16.4则为6，在20w45a至20w51a则为7。</code></li>
+</ul>
+<h2 id=""></h2>
+<p>再打开之前创建的<strong>data</strong>文件夹<br>
+在其内部创建一个名为minecraft的文件夹<br>
+打开minecraft文件夹，再创建一个名为recipes的文件夹</p>
+<h2 id="落">落</h2>
+<p>至此，一个能够更改/添加物品合成的数据包<strong>框架</strong>就搭好了</p>
+<h1 id="如何使用数据包ban除物品合成">如何使用数据包ban除物品合成</h1>
+<ul>
+<li>在data/minecraft/recipes文件夹下创建一个新建文本文档并将其改为<strong>需要ban除的物品id.json</strong>（！需要开启扩展名显示）</li>
+<li>例如crafting_table.json</li>
+<li>右键并选择一个<strong>文本编辑器</strong>打开</li>
+<li>这边以<strong>工作台合成配方</strong>为例<br>
+<img src="https://skeletoncold.github.io/post-images/1608582980387.gif" alt="" loading="lazy"><br>
+<img src="https://skeletoncold.github.io/post-images/1608583279533.png" alt="" loading="lazy"></li>
+</ul>
+<h1 id="end">END</h1>
+<p>教程到这就结束了，后续我可能会在这上面贴个演示文件的下载链接</p>
+<h1 id="20">2.0</h1>
+<p>这里讲另一个ban除物品的方法<br>
+和上面的步骤一样<br>
+只不过最后一步<strong>合成结果</strong>不一样</p>
+<p>你可以把合成结果指向另一个物品<br>
+例如我要ban除的物品是工作台，他的id是crafting_table<br>
+我创建了一个crafting_table.json，然后我在最后指向的不是工作台，而是箱子</p>
+<p>这样，你在jei/rei中查询工作台的配方是查不到的，因为<strong>没有</strong>其他东西添加了工作台合成配方</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何搭建Minecraft服务器]]></title>
         <id>https://skeletoncold.github.io/post/how-to-install-minecraft-server/</id>

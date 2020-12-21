@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skeletoncold.github.io</id>
     <title>SkeletonCold</title>
-    <updated>2020-12-21T21:23:22.357Z</updated>
+    <updated>2020-12-21T21:27:22.517Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skeletoncold.github.io"/>
     <link rel="self" href="https://skeletoncold.github.io/atom.xml"/>
@@ -55,7 +55,8 @@
 <img src="https://skeletoncold.github.io/post-images/1608583279533.png" alt="" loading="lazy"></li>
 </ul>
 <h1 id="end">END</h1>
-<p>教程到这就结束了，后续我可能会在这上面贴个演示文件的下载链接</p>
+<p>教程到这就结束了，后续我可能会在这上面贴个演示文件的下载链接<br>
+<code>https://github.com/SkeletonCold/skeletoncold.github.io/releases/download/v1.0/TEST.datapack.zip</code></p>
 <h1 id="20">2.0</h1>
 <p>这里讲另一个ban除物品的方法<br>
 和上面的步骤一样<br>

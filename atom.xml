@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skeletoncold.github.io</id>
     <title>SkeletonCold</title>
-    <updated>2020-12-21T21:28:38.017Z</updated>
+    <updated>2020-12-22T08:39:17.388Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skeletoncold.github.io"/>
     <link rel="self" href="https://skeletoncold.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, SkeletonCold</rights>
     <entry>
         <title type="html"><![CDATA[如何使用原版数据包来ban除物品合成配方]]></title>
-        <id>https://skeletoncold.github.io/post/how-to-ban-item-with-vanilla-datapack/</id>
-        <link href="https://skeletoncold.github.io/post/how-to-ban-item-with-vanilla-datapack/">
+        <id>https://skeletoncold.github.io/post/how-to-ban-recipes-with-vanilla-datapack/</id>
+        <link href="https://skeletoncold.github.io/post/how-to-ban-recipes-with-vanilla-datapack/">
         </link>
         <updated>2020-12-21T18:24:38.000Z</updated>
         <content type="html"><![CDATA[<h1 id="开始之前">🏠开始之前</h1>
@@ -45,7 +45,7 @@
 打开minecraft文件夹，再创建一个名为recipes的文件夹</p>
 <h2 id="落">落</h2>
 <p>至此，一个能够更改/添加物品合成的数据包<strong>框架</strong>就搭好了</p>
-<h1 id="如何使用数据包ban除物品合成">如何使用数据包ban除物品合成</h1>
+<h1 id="如何使用数据包ban除物品合成配方">如何使用数据包ban除物品合成配方</h1>
 <ul>
 <li>在data/minecraft/recipes文件夹下创建一个新建文本文档并将其改为<strong>需要ban除的物品id.json</strong>（！需要开启扩展名显示）</li>
 <li>例如crafting_table.json</li>
@@ -303,23 +303,6 @@
 <code>/deop &lt;id&gt;</code>该指令可以取消玩家的OP权限</p>
 <p>感谢您能读到这，如果有什么想说的，可以在下方评论区登录<strong>GitHub</strong>，并撰写评论<br>
 感谢<strong>GitHub Page</strong>提供的免费建站服务</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[test]]></title>
-        <id>https://skeletoncold.github.io/post/test/</id>
-        <link href="https://skeletoncold.github.io/post/test/">
-        </link>
-        <updated>2020-10-20T19:12:29.000Z</updated>
-        <content type="html"><![CDATA[<p>这是一篇测试文章！</p>
-<h1 id="这是一篇测试文章">这是一篇测试文章！</h1>
-<p><strong>这是一篇测试文章！</strong><br>
-<code>这是一篇测试文章！</code><br>
-<em>这是一篇测试文章！</em></p>
-<ul>
-<li>这是一篇测试文章！<br>
-<s>这是一篇测试文章！</s></li>
-</ul>
 ]]></content>
     </entry>
 </feed>

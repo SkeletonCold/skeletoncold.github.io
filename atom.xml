@@ -2,14 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skeletoncold.github.io</id>
     <title>SkeletonCold</title>
-    <updated>2020-12-22T08:39:17.388Z</updated>
+    <updated>2021-01-01T08:54:37.604Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skeletoncold.github.io"/>
     <link rel="self" href="https://skeletoncold.github.io/atom.xml"/>
     <subtitle>嚯嚯嚯，这是我的个人主页哟</subtitle>
     <logo>https://skeletoncold.github.io/images/avatar.png</logo>
     <icon>https://skeletoncold.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, SkeletonCold</rights>
+    <rights>All rights reserved 2021, SkeletonCold</rights>
+    <entry>
+        <title type="html"><![CDATA[2021]]></title>
+        <id>https://skeletoncold.github.io/post/2021/</id>
+        <link href="https://skeletoncold.github.io/post/2021/">
+        </link>
+        <updated>2021-01-01T08:30:05.000Z</updated>
+        <content type="html"><![CDATA[<p>呀呼~<br>
+又过去一年了呢！<br>
+祝大家元旦快乐！</p>
+<p>大家2020年过的还好吗？</p>
+<p>在2020年，我做了这么些事：</p>
+<ul>
+<li>1月参与了《青玄大陆》服务器开发， 后服务器倒闭，服务端归属于我</li>
+<li>1-2月朋友在淘宝租了一个面板服务器....后因服务器到期倒闭，服务器1-2期存档归属于我</li>
+<li>3月游玩了一个mcbbs上的整合包，已毕业</li>
+<li>4月购买了WE壁纸软件</li>
+<li>4-5月，自己瞎整了一堆模组包，然后期间还游玩了OmniFactory整合包</li>
+<li>6月，惆怅....</li>
+<li>7月《火种科技》模组毕业，观看了《天气之子》</li>
+<li>8月初游玩了《虚无世界3》8月中旬开放了《我的世界1.16.2》服务器</li>
+<li>9月中旬，开始致力于《我的世界Spigot插件服开发》</li>
+<li>9-12月，时不时上服务器摸鱼</li>
+<li>10月初好友赠送了一些steam游戏，10月中旬，开始使用Gridea写博</li>
+<li>10月下旬-11月末，游玩《失重》整合包</li>
+<li>11月1日，拍摄万圣节照片！<br>
+<img src="https://skeletoncold.github.io/post-images/1609490800246.png" alt="" loading="lazy"></li>
+<li>12月初，游玩Nekopara vol.4，12月中旬，开始游玩《玄理2》整合包，12月22号游玩了《Minecraft社区》制作者制作的小型RPG地图，12月末，开始开发CU数据包（已投Git仓库）</li>
+<li>12月31日，完....<br>
+嘛...以上就是我在2020年所做的一些事了...</li>
+</ul>
+<p>今天的新年的第一天，我计划在这一年内</p>
+<ul>
+<li>完善服务器</li>
+<li>完善CU数据包</li>
+<li>学习一门编程语言</li>
+<li>暂无....</li>
+</ul>
+<p>2021年暂定事项</p>
+<ul>
+<li>二期服务器开发（1-2月末）</li>
+<li>CU数据包开发</li>
+</ul>
+<p>2021年1月1日</p>
+<ul>
+<li>开通爱发电，链接https://afdian.net/@SkeletonCold</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何使用原版数据包来ban除物品合成配方]]></title>
         <id>https://skeletoncold.github.io/post/how-to-ban-recipes-with-vanilla-datapack/</id>

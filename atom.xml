@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skeletoncold.github.io</id>
     <title>SkeletonCold</title>
-    <updated>2021-02-05T07:20:08.816Z</updated>
+    <updated>2021-04-09T12:25:11.475Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skeletoncold.github.io"/>
     <link rel="self" href="https://skeletoncold.github.io/atom.xml"/>
@@ -116,7 +116,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[如何搭建Minecraft服务器]]></title>
+        <title type="html"><![CDATA[如何搭建Minecraft服务器(已过时)]]></title>
         <id>https://skeletoncold.github.io/post/how-to-install-minecraft-server/</id>
         <link href="https://skeletoncold.github.io/post/how-to-install-minecraft-server/">
         </link>
